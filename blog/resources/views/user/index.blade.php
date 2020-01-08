@@ -7,15 +7,7 @@
             <div class="card">
                 <div class="card-header">ユーザー一覧</div>
                 <div class="card-body">
-                    <div class="row">
-
-                        <user-list
-                            v-for="post in user_data"
-                            v-bind:key="post.id"
-                            v-bind:post="post"
-                        ></user-list>
-
-                    </div>
+                    <userlist-component></userlist-component>
                 </div>
             </div>
         </div>
